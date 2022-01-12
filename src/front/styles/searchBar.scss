@@ -1,6 +1,6 @@
-.searchBar__Box{
-    width: 26rem;
-    height: 4rem;
+.searchBar__Box {
+    width: 22rem;
+    height: 3.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,61 +11,61 @@
     border-radius: 27px;
     position: relative;
     margin-left: 1.5rem;
-}
-
-.seachBar__input{
+  }
+  
+.seachBar__input {
     width: 80%;
     border: none;
     font-size: 18px;
-    margin-left: 1rem,;
-}
-
-.searchBar-container__button{
-    width: 3.5rem;
-    height: 3.5rem;
-    background:transparent;
-    border-left: 1px solid #2CB1AA;
+    margin-left: 1rem;
+  }
+  
+  .searchBar-container__button {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: transparent;
+    border-left: 1px solid #2cb1aa;
     padding-left: 2px;
-}
-
-.seachBar__button{
-    width: 3.5rem;
-    height: 3.5rem;
+  }
+  
+  .seachBar__button {
+    width: 3.2rem;
+    height: 3.2rem;
     background: rgba(44, 177, 170, 0.5);
     border-radius: 50%;
     border: none;
     color: #006184;
     font-size: 1.5rem;
-}
-
-.searchBar__dataresult{
+  }
+  
+  .searchBar__dataresult {
     height: 45rem;
     width: 102%;
     overflow: auto;
     position: absolute;
     top: 100%;
     left: 2%;
-}
-
-.searcbar__link{
+  }
+  
+  .searcbar__link {
     text-decoration: none;
     color: black;
     display: block;
-}
-
-.searchBar__resultitems{
+  }
+  
+  .searchBar__resultitems {
     display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
     width: 24rem;
     height: 6rem;
     margin: 1rem 1rem 1rem 1rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    font-family: 'Roboto Condensed';
+    font-family: "Roboto Condensed";
     font-weight: bold;
-}
-
-.searchBar__resultimg{
+  }
+  
+  .searchBar__resultimg {
     height: 5rem;
     width: 6rem;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -74,13 +74,14 @@
     border-radius: 0.5rem;
     align-content: flex-end;
     align-items: flex-end;
-}
-
-.searchBar__dataresult::-webkit-scrollbar {
-    background-color: #96D8D5;
-}
-
-.searcBar__resultlink{
+  }
+  
+  .searchBar__dataresult::-webkit-scrollbar {
+    background-color: #96d8d5;
+  }
+  
+  .searcBar__resultlink {
     text-decoration: none;
     color: black;
-}
+  }
+  

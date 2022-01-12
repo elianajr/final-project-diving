@@ -33,7 +33,7 @@ const FavButton = () => {
         // type="submit"
         >
             <i 
-            className={icon ? heartFav : heart}
+            className={icon ? heart : heartFav}
             onClick={() => setIcon(prevState => !prevState)}
             />
         </button>

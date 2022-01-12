@@ -1,5 +1,5 @@
 import React , { useState, useContext, useEffect, Fragment } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
 import { Context } from "../store/appContext.js";
 import "../../styles/profile.scss";
 
@@ -14,7 +14,9 @@ const FavCenters = () => {
     const favourites = user.favourite_centers.map((favourite, index) => {
         return (
             <li key={index.toString()}>
+                <NavLink className="link-navbar" to={`/profile/${favourite.id}`}>
                 {favourite.name} 
+                </NavLink >
                 <button className="btnfavourite-profile"
                     onClick={event => {
                         event.preventDefault;
